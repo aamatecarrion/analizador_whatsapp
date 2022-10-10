@@ -1,0 +1,391 @@
+body {
+  background-image: url("fondowhatsapp.png");
+}
+* {
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+}
+
+nav {
+  margin: 40px 10px;
+  text-align: center;  
+}
+a {
+  text-decoration: none;
+  color: black;
+
+}
+nav * {
+  border: 1px solid black;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+nav a:hover {
+  background-color: #88f6a9;
+}
+nav span {
+  background-color: #0dc143;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  background-color: #ffffff94;
+}
+.cerrarsesion {
+  text-decoration: none;
+  position: absolute;
+  font-size: 13px;
+  top: 0px;
+  right: 0px;
+  margin: 5px 10px;
+
+}
+.cerrarsesion:hover{
+  text-decoration: underline;
+}
+.botonatras {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+.botonatras:hover {
+  text-decoration: underline;
+}
+
+.datosusuario {
+  background: linear-gradient(0deg, #feffe9, #fffff4);
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-family: verdana;
+}
+.divperfil {
+  max-width: 470px;
+  margin: auto;
+}
+.formulariosubir {
+  background: linear-gradient(0deg, #feffe9, #fffff4);
+  border-radius: 20px;
+  padding: 1px 15px 15px;
+  font-family: verdana;
+  max-width: 470px;
+  margin: auto;
+}
+#eliminarcuenta {
+  padding-left: 20px;
+}
+#eliminarcuenta a:hover {
+  color: #f00;
+  text-decoration: underline;
+}
+#divnotienescuenta {
+  margin-top: 10px;
+}
+#registrarse a:hover {
+  text-decoration: none;
+  text-shadow: 0px 1px 3px #00ff00;
+}
+.formulariologin, #mensajeindex {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+#mensajeindex {
+  margin-top: 20px;
+}
+.logininput {
+  margin: 5px;
+  font-size: 18px ;
+}
+.submitlogin {
+    background-color: #0dc143;
+    text-align: center;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+.formregistro, #mensajeregistro {
+  max-width: 400px;
+  margin: auto;
+  text-align: center; 
+}
+
+.formregistro input {
+  margin: 5px;
+  font-size: 18px ;
+}
+.submitregistro {
+  background-color: #0dc143;
+    text-align: center;
+    border: none;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.listachats {
+  margin: auto;
+  max-width: 600px;
+}
+.subirchat {
+    display: inline-block;
+    font-size: 14px;
+    margin: 9px;
+    background: #3fffff80;
+    padding: 4px 7px;
+}
+.subirchat:hover {
+  background: #3fffff;
+}
+table {
+  font-family: verdana;
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+}
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+
+tbody tr:hover td {
+  background-color: #88f6a9;
+  cursor: pointer;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+.eliminarchat:hover {
+    color: #ff2222;
+    text-decoration: underline;
+}
+.mensajeeliminar {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: verdana;
+}
+.opcioneseliminar {
+  text-align: center;
+  margin: 10px 10px;
+}
+.opcioneseliminar a {
+  display: inline-block;
+  margin: 5px;
+}
+.opcioneseliminar a:hover{
+  text-decoration: underline;
+}
+.eliminareliminar:hover {
+  color: #f00;
+}
+
+.tpm {
+  text-align: center;
+}
+.tpm span {
+  display: inline-block;
+  text-align: center;
+
+}
+.tpm span div {
+  margin: 5px;
+}
+.tpm span div:first-child {
+  font-weight: bold;
+}
+
+.primerultimo {
+  max-width: 400px;
+  margin: 15px auto;
+  text-align: center;
+}
+.primerultimo > div {
+  margin: 5px 0px;
+}
+
+.barraparticipacion {
+  height: 11px;
+  display: inline-block;
+  border-radius: 5px;
+}
+.graficoparticipacion {
+    width: 250px;
+    margin: auto;
+    background: linear-gradient(0deg, #feffe9, #fffff4);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: verdana;
+}
+.graficoparticipacion > h3 {
+  margin: 10px 0px;
+}
+
+.parpart {
+  margin: 5px 0px;
+}
+
+.barramensajeshora {
+  height: 5px;
+  display: inline-block;
+  border-radius: 5px;
+  padding-top: 6px;
+}
+.graficohora {
+  width: 250px;
+  margin: 0px auto;
+  background: linear-gradient(0deg, #feffe9, #fffff4);
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-family: verdana;
+}
+.graficohora > h3 {
+  margin: 10px 0px;
+}
+.graficos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.graficosemana {
+  width: 250px;
+  margin: 0px auto;
+  background: linear-gradient(0deg, #feffe9, #fffff4);
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-family: verdana;
+}
+.graficosemana > h3 {
+  margin: 10px 0px;
+}
+
+.graficomes {
+  width: 250px;
+  margin: 0px auto;
+  background: linear-gradient(0deg, #feffe9, #fffff4);
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-family: verdana;
+}
+.graficomes > h3 {
+  margin: 10px 0px;
+}
+.barramensajessemana {
+  height: 20px;
+  display: inline-block;
+  border-radius: 5px;
+
+}
+.diasemana {
+  margin: 15px 0px;
+}
+.barramensajesmes {
+  height: 11px;
+  display: inline-block;
+  border-radius: 5px;
+}
+.mes {
+  margin: 1px 0px;
+}
+.graficos > div {
+  margin-top: 10px;
+}
+.cargando {
+  margin: auto;
+  text-align: center;
+}
+
+
+
+/*css del spinner*/
+
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: inherit;
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
